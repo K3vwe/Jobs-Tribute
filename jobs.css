@@ -1,0 +1,60 @@
+html {
+    font-size: 10px;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6rem;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    margin: 0;
+    line-height: 1.4em;
+}
+#main {
+    margin: 30px 15px;
+    border-radius: 5px;
+    padding: 15px;
+    background: #efefef;
+}
+#img-div {
+    display: block;
+    background-color: #fff;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+}
+#imgcaption {
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+}
+@media (max-width: 460px) {
+    #imgcaption {
+        font-size: 1.4rem;
+    }
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+ul {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    line-height: 1.6em;
+}
+li {
+    margin: 16px 0;
+    list-style-image: url("images/appleicon.jpg");
+}
+blockquote {
+    font-style: italic;
+    width: 550px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+#tribute_link {
+    color: #0088dd;
+}
